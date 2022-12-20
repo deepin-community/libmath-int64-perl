@@ -1,0 +1,8 @@
+---
+Archive: CPAN
+Bug-Database: http://rt.cpan.org/Public/Dist/Display.html?Name=Math-Int64
+Bug-Submit: bug-math-int64@rt.cpan.org
+Contact: Salvador Fandino <sfandino@yahoo.com>, Dave Rolsky <autarch@urth.org>
+Name: Math-Int64
+Repository: git://github.com/salva/p5-Math-Int64.git
+Repository-Browse: https://github.com/salva/p5-Math-Int64
