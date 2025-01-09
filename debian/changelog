@@ -1,8 +1,43 @@
-libmath-int64-perl (0.54-deepin1) unstable; urgency=medium
+libmath-int64-perl (0.57-1) unstable; urgency=medium
 
-  * Rebuild
+  * Team upload.
+  * Import upstream version 0.57.
+  * Declare compliance with Debian Policy 4.6.2.
+  * Set Rules-Requires-Root: no.
+  * Update alternative test dependencies.
+  * Enable all hardening flags.
+  * Annotate test-only build dependencies with <!nocheck>.
+  * Add debian/clean to remove generated build file. (Closes: #1046657)
 
- -- Deepin Packages Builder <packages@deepin.org>  Mon, 14 Nov 2022 17:46:04 +0800
+ -- gregor herrmann <gregoa@debian.org>  Sat, 27 Jan 2024 03:13:45 +0100
+
+libmath-int64-perl (0.54-2) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+  * debian/upstream/metadata: change GitHub/CPAN URL(s) to HTTPS.
+  * debian/upstream/metadata: use HTTPS for GitHub URLs.
+
+  [ Alex Muntada ]
+  * Remove inactive pkg-perl members from Uploaders.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ gregor herrmann ]
+  * debian/control: update Build-Depends for cross builds.
+  * debian/watch: use uscan version 4.
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 15 Jun 2022 19:01:14 +0100
 
 libmath-int64-perl (0.54-1) unstable; urgency=medium
 
