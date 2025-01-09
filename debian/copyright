@@ -1,4 +1,4 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Math-Int64
 Upstream-Contact: Salvador Fandino <sfandino@yahoo.com>, Dave Rolsky <autarch@urth.org>
 Source: https://metacpan.org/release/Math-Int64
